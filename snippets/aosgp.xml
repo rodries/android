@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+    <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.1.2_r5" />
 
   <!-- AOSGP additions -->
   <project path="packages/apps/NexusLauncher" name="aosgp/android_packages_apps_NexusLauncher-prebuilt" remote="github" revision="master" />
