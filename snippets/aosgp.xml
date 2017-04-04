@@ -4,13 +4,13 @@
   <!-- AOSGP additions -->
   <project path="packages/apps/NexusLauncher" name="aosgp/android_packages_apps_NexusLauncher-prebuilt" remote="github" revision="master" />
   <!--<project path="packages/apps/WallpaperPicker" name="aosgp/android_packages_apps_WallPaperPicker-prebuilt" remote="github" revision="master" />-->
-  <project path="packages/apps/Settings" name="android/platform_packages_apps_settings" remote="github" revision="android-7.1.2_r5" />
+  <project path="packages/apps/Settings" name="android/platform_packages_apps_settings" remote="aosp" />
   <project path="vendor/cm" name="aosgp/android_vendor_aosgp" remote="github" revision="cm-14.1" />
   <project path="packages/apps/AOSGPOTA" name="aosgp/packages_apps_AOSGPOTA" remote="github" revision="nougat" />
   <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
   <project path="supported" name="aosgp/Supported_devices" remote="github" revision="nougat" />
-  <project path="frameworks/base" name="android/platform_frameworks_base" revision="android-7.1.2_r5" />
-  <project path="system/core" name="android/platform_system_core" remote="github" revision="android-7.1.2_r5" />
+  <project path="frameworks/base" name="android/platform_frameworks_base" remote="aosp" />
+  <project path="system/core" name="android/platform_system_core" remote="aosp" />
   <project path="system/sepolicy" name="aosgp/android_system_sepolicy" remote="github" revision="7.1" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
 </manifest>
