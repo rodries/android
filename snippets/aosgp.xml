@@ -4,7 +4,7 @@
   <!-- AOSGP additions -->
   <project path="packages/apps/NexusLauncher" name="aosgp/android_packages_apps_NexusLauncher-prebuilt" remote="github" revision="master" />
   <!--<project path="packages/apps/WallpaperPicker" name="aosgp/android_packages_apps_WallPaperPicker-prebuilt" remote="github" revision="master" />-->
-  <project path="packages/apps/Settings" name="platform/packages/apps/settings" remote="aosp" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="aosp" />
   <project path="vendor/cm" name="aosgp/android_vendor_aosgp" remote="github" revision="cm-14.1" />
   <project path="packages/apps/AOSGPOTA" name="aosgp/packages_apps_AOSGPOTA" remote="github" revision="nougat" />
   <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
