@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+  
+  <remote  name="aosgp"
+            fetch="git://github.com/AOSGP"
+            revision="master" />
+  
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
